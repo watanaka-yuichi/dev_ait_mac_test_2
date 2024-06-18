@@ -1,0 +1,56 @@
+{
+  "name": "dev_ait_mac_test_1",
+  "description": "AIT template (docker image regist to remote)",
+  "source_repository": "https://github.com/aistairc/ait-template",
+  "version": "0.1",
+  "quality": "https://ait-hub.pj.aist.go.jp/ait-hub/api/0.0.1/qualityDimensions/機械学習品質マネジメントガイドライン第三版/A-2データ設計の十分性",
+  "keywords": [
+    "Template"
+  ],
+  "references": [],
+  "licenses": [],
+  "inventories": [
+    {
+      "name": "iris_data",
+      "type": "dataset",
+      "description": "アヤメの分類データです",
+      "requirement": {
+        "format": [
+          "csv"
+        ]
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "name": "mean_column_name",
+      "type": "str",
+      "description": "sepal.width\nsepal.length\npetal.width\npetal.length",
+      "default_val": "sepal.width"
+    }
+  ],
+  "report": {
+    "measures": [
+      {
+        "name": "mean",
+        "type": "float",
+        "description": "mean of select column",
+        "structure": "single",
+        "min": "0"
+      }
+    ],
+    "resources": [
+      {
+        "name": "pairplot",
+        "type": "picture",
+        "description": "pairplot"
+      }
+    ]
+  },
+  "downloads": [
+    {
+      "name": "Log",
+      "description": "AIT実行ログ"
+    }
+  ]
+}
