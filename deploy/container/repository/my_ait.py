@@ -38,7 +38,7 @@
 
 # [uneditable]
 
-# In[ ]:
+# In[1]:
 
 
 # Determine whether to start AIT or jupyter by startup argument
@@ -150,7 +150,7 @@ if not is_ait_launch:
 ## sample ##
     from ait_sdk.common.files.ait_manifest_generator import AITManifestGenerator
     manifest_genenerator = AITManifestGenerator(current_dir)
-    manifest_genenerator.set_ait_name('dev_ait_mac_test_1')
+    manifest_genenerator.set_ait_name('dev_ait_mac_test_2')
     manifest_genenerator.set_ait_description('AIT template (docker image regist to remote)')
     manifest_genenerator.set_ait_source_repository('https://github.com/aistairc/ait-template')
     manifest_genenerator.set_ait_version('0.1')
