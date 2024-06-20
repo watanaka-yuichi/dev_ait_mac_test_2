@@ -66,7 +66,9 @@ git push origin main
 
 COMMIT_ID=$(git show --format="%H" --no-patch)
 
+REPO_NAME_DISPLAY="`echo $REPO_NAME | rev | cut -c 5- | rev`"
+
 echo "------------------ Repository URL Start ------------------"
-echo "https://github.com/$GITHUB_ACCOUNT/$REPO_NAME/tree/$COMMIT_ID"
+echo "https://github.com/$GITHUB_ACCOUNT/$REPO_NAME_DISPLAY/tree/$COMMIT_ID"
 echo "------------------ Repository URL End ------------------"
 
