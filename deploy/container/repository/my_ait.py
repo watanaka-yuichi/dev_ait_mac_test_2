@@ -151,7 +151,7 @@ if not is_ait_launch:
     from ait_sdk.common.files.ait_manifest_generator import AITManifestGenerator
     manifest_genenerator = AITManifestGenerator(current_dir)
     manifest_genenerator.set_ait_name('dev_ait_mac_test_2')
-    manifest_genenerator.set_ait_description('AIT template (docker image regist to remote)')
+    manifest_genenerator.set_ait_description('mac test')
     manifest_genenerator.set_ait_source_repository('https://github.com/aistairc/ait-template')
     manifest_genenerator.set_ait_version('0.2')
     manifest_genenerator.add_ait_keywords('Template')
