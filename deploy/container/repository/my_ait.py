@@ -153,7 +153,7 @@ if not is_ait_launch:
     manifest_genenerator.set_ait_name('dev_ait_mac_test_2')
     manifest_genenerator.set_ait_description('AIT template (docker image regist to remote)')
     manifest_genenerator.set_ait_source_repository('https://github.com/aistairc/ait-template')
-    manifest_genenerator.set_ait_version('0.1')
+    manifest_genenerator.set_ait_version('0.2')
     manifest_genenerator.add_ait_keywords('Template')
     manifest_genenerator.set_ait_quality('https://ait-hub.pj.aist.go.jp/ait-hub/api/0.0.1/qualityDimensions/機械学習品質マネジメントガイドライン第三版/A-2データ設計の十分性')
     inventory_requirement_iris_data = manifest_genenerator.format_ait_inventory_requirement(format_=['csv'])

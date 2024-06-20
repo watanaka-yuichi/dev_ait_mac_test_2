@@ -2,7 +2,7 @@
   "name": "dev_ait_mac_test_2",
   "description": "AIT template (docker image regist to remote)",
   "source_repository": "https://github.com/aistairc/ait-template",
-  "version": "0.1",
+  "version": "0.2",
   "quality": "https://ait-hub.pj.aist.go.jp/ait-hub/api/0.0.1/qualityDimensions/機械学習品質マネジメントガイドライン第三版/A-2データ設計の十分性",
   "keywords": [
     "Template"
