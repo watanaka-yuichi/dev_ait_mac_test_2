@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 INPUT_INVENTORY_ADD_FLAG=""
 INPUT_COMMIT_COMMENT=""
